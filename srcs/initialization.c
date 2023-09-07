@@ -6,7 +6,7 @@
 /*   By: babreton <babreton@student.42perpignan.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/22 10:11:44 by babreton          #+#    #+#             */
-/*   Updated: 2023/03/23 20:27:32 by babreton         ###   ########.fr       */
+/*   Updated: 2023/09/07 13:49:38 by babreton         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ void	tiles_init(int i, t_window	*win)
 			&i, &i);
 	win->tiles.t_right = mlx_xpm_file_to_image(win->mlx, "./tileset/T_R.xpm",
 			&i, &i);
-	win->tiles.top = mlx_xpm_file_to_image(win->mlx, "./tileset/T.xpm",
+	win->tiles.top = mlx_xpm_file_to_image(win->mlx, "./tileset/TB.xpm",
 			&i, &i);
 	win->tiles.b_left = mlx_xpm_file_to_image(win->mlx, "./tileset/B_L.xpm",
 			&i, &i);
