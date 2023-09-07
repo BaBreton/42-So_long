@@ -2,9 +2,10 @@
   <img src="https://github.com/BaBreton/42-Get_next_line/assets/124448529/43a36b92-4c44-4c58-b03c-b18903712b45" alt="BaBreton" />
 </p>
 
+
 # 42-So_long
 
-So-long is a 42 school project in which you must create a little 2d games using the MiniLibX, a graphical library.
+So-long is a 42 school project in which you must create a little 2d game using the MiniLibX, a graphical library.
 
 ## Installation
 
@@ -24,10 +25,10 @@ The program work by generating a map from a .ber file. Here the elements which c
 
 * 1 - Wall (The map must be surrounded by walls)
 * 0 - Ground
-* P - Player (Max one allowed)
-* E - Exit (Max one allowed)
-* C - Collectibles (Must collect all the collectibles before exit)
-* T - Traps (Animated, walked on it, and you're dead)
+* P - Player (Maximum one allowed)
+* E - Exit (Maximum one allowed)
+* C - Collectibles (Must collect all the collectibles before exiting)
+* T - Traps (Animated; walking on it results in death)
 
 <img src="https://github.com/BaBreton/42-So_long/assets/124448529/eb4f0808-d1d6-421c-b00b-806e9f96c86f" align="center" width="300px"/>
 <- Here an example of a legit .ber file.
@@ -40,11 +41,16 @@ You can select a map with 1-2-3 or use 4 to use your own map.
   <- If you use your own map, press 4, then type the path of your map.
 <br clear="center"/>
 
+<p>&nbsp;</p>
+
 ---
 
-Then you can play ! Use your keyboard arrows to move, collect all the objects, don't die in the traps, and escape !
+<p>&nbsp;</p>
 
-<div style="display:flex; justify-content:center;">
+
+Now, you can start playing ! Use your keyboard arrows to move, collect all the objects, avoid the traps, and make your escape!
+
+<div style="display:flex; justify-content:center; align="center">
   <img src="https://github.com/BaBreton/42-So_long/assets/124448529/a432e747-755c-4661-be13-9c8f83939aa1" width="200px" style="margin:5px;">
   <img src="https://github.com/BaBreton/42-So_long/assets/124448529/dc247b9f-71dc-41ee-8549-fe859d40cffa" width="200px" style="margin:5px;">
   <img src="https://github.com/BaBreton/42-So_long/assets/124448529/430cb0ad-cb82-4c1f-85a2-9f9eb7223e3b" width="200px" style="margin:5px;">
